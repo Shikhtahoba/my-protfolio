@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation code start */
+
+header{
+    background-color: #FFF8F3;
+}
+
+
+.hh2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.mary{
+    color: orange;
+}
+
+
+.btn{
+    background-color: orange;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    
+}
+
+nav li{
+    margin-right: 50px;
+    list-style: none;
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.banner{
+   padding:30px 30px 30px 140px ; 
+   display: flex;
+   align-items: center;
+}
+
+.baner-1 > p{
+    text-align: justify;
+}
+
+.banner .profile-pic{
+    width: 450px;
+}
+
