@@ -135,9 +135,10 @@ main{
 .section-8{
     gap: 24px;
     padding: 30px;
-    text-align: justify;
+    text-align: left;
     box-shadow: 5px 5px 5px 5px darkgray;
     border-radius: 5px;
+    
     
     
 }
