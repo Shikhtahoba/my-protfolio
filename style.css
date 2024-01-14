@@ -211,3 +211,114 @@ footer{
     margin-right: 30px;
     margin-top: 50px;
 }
+
+
+/* Responsive website */
+
+/* mobile device */
+
+@media screen and (max-width:576px) {
+
+    nav{
+        flex-direction: column;
+        width: 10px 40px;
+    }
+
+    .banner .profile-pic{
+        width: 100%;
+    }
+
+    nav li{
+        padding-top: 20px;
+    }
+    .section-7{
+        flex-direction: column;
+    }
+    #what-i-do{
+        padding: 20px;
+    }
+    .section-9{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-1 >a{
+        
+        margin-right: 10px;
+    }
+    .lets{
+        margin-right: 10px;
+        width: 450px;
+    }
+    footer{
+       flex-direction: column;
+       padding: 20px;
+       
+    }
+    .contact input ,textarea{
+        width: 40%;
+    }
+    .submit{
+        padding: 10px 30px;
+    }
+
+    .section-3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 20px;
+    }
+    .tn{
+        margin-top: 10px;
+        margin-bottom:10px ;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    nav >ul{
+        flex-direction: column;
+    }
+}
+
+/* medium device */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .section-7{
+        flex-direction: column;
+    }
+    #what-i-do{
+        padding: 20px;
+    }
+    .section-9{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-1 >a{
+        
+        margin-right: 10px;
+    }
+    .lets{
+        margin-right: 10px;
+        width: 450px;
+    }
+    footer{
+       
+       padding: 20px;
+       
+    }
+    .contact input ,textarea{
+        width: 50%;
+    }
+
+    .submit{
+        padding: 10px 30px;
+    }
+
+    .section-3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 20px;
+    }
+    .tn{
+        margin-top: 10px;
+        margin-bottom:10px ;
+    }
+}
